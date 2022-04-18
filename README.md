@@ -4,6 +4,8 @@
 # 项目内容
 目前包含以下内容，~~点击直接进入~~：
 
+<!-- + [ACM](/ACM.md) -->
+
 + [Linux](/linux.md)
 + [Git](/git.md)
 + [Java](/java.md)
@@ -16,6 +18,5 @@
 # 联系我
 邮箱：ljjtpcn@163.com
 
-欢迎沟通交流。
+欢迎沟通交流
 
-![](https://throwable-blog-1256189093.cos.ap-guangzhou.myqcloud.com/static/img/error.jpg)
