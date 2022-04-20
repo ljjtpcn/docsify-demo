@@ -1,6 +1,5 @@
 ?> `create、drop、alter`
 
-
 ### C(Create):创建数据库
 
 ```sql
@@ -105,7 +104,6 @@ CREATE TABLE student(
     insert_time timestamp
 );
 ```
-
 
 ### R(Retrieve):查询表
 

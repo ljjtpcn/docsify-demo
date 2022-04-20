@@ -68,7 +68,7 @@ git remote -v
 2. 使用如下命令再添加一个远程仓库（这里以github为例）
 
 ```bash
-git remote add github https://github.com/ljjtpcn/docsify-demo.git
+git remote add github https://[token]ngithub.com/ljjtpcn/docsify-demo.git
 ```
 
 ![git2](https://hexoljj.oss-cn-shenzhen.aliyuncs.com/img/202112041355516.png)
@@ -81,3 +81,10 @@ git remote rm github #表示删除github的远程仓库
 ```
 
 
+在使用Git的过程中，有些时候我们只想要git服务器中的最新版本的项目，对于本地的项目中修改不做任何理会，就需要用到Git pull的强制覆盖，具体代码如下：
+
+```bash
+$ git fetch --all
+$ git reset --hard main/main 
+$ git pull
+```
